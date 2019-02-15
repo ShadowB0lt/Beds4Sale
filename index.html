@@ -1,0 +1,107 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="Description" content="Home Page of Beds4Sale, Selling Beds of the Comfortable kind.">
+        <meta name ="Keywords" content="Beds,kinds,Bunk,designer,Bountiful">
+        <title>Bountiful Beds</title>
+        <link rel="stylesheet" href="master.css" type="text/css">
+        
+        <script src="galleria/jquery.js"></script>
+        <script src="galleria/galleria-1.2.6.min.js"></script>
+        
+    </head>
+
+    <body>
+
+            <div id="Header">
+                
+                <img src="Images/cloudbed.png" class="bedlogo" width="200px" height="93">
+                <H1 class="BusinessName" >BEDS 4 SALE</H1>
+                <div id="loggedin" >
+                <?php
+                    session_start();
+
+                    
+                    if (!isset($_SESSION['user']) ) 
+                        {
+                            echo 'Please Login to order'; 
+                        } 
+                    else
+                        {
+                            
+                            echo 'Welcome   '.$_SESSION['user'];
+                        }
+                ?>
+                    <br></br>
+                    <div class="logout">
+                <form action="logout.php" method="get">
+                        <input type="submit" name="Logout" value="Logout">
+                    </form>
+                </div>
+                </div>
+                
+            </div>
+        
+        <div class="clear"></div>
+            
+            <div id="Navigation">
+              <nav>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="register.html">Login & Registration</a></li>
+                    <li><a href="basket.html">Basket</a></li>
+                    <li><a href="Order.html">Order Summary</a></li>
+                    
+                </nav>
+            </div>
+            <div class="clear"></div>
+            
+            <div id="Content">
+
+                <div id="intro">
+
+                    <img src="Images/mekalh6u.jpg" class="smallimg" width="250" />
+                    <h2>Bountiful beds</h2>
+                    <p>Best quality Beds Available nowhere but here, we sell all kinds of beds, from Bunk beds to designer.</p>
+                    <p>Register for more Information below</p>
+
+                </div>
+                
+                <div id="sub">
+                    <p>Register Now for our Newsletter</p>
+                    <form action="subscribe.php" method="get">
+                        <label>Email address:</label><input id="email" type="text" >
+                        <input type="submit" name="Register" class="button" value="Subscribe">
+                    </form>
+                    
+                </div>
+                        
+                    <img src="Images/bedsteads.jpg" class="imgside" width="350px"/>
+                
+                <div id="gallery">
+                    <img src="Images/LowBedDesigns.jpg" width="30" height="30" />
+                    <img src="Images/modern-beds.jpg" width="30" height="30" />
+                    <img src="Images/queen&kingBed.jpg" width="30" height="30"/>
+                    <script>
+                        Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+                        $("#gallery").galleria({width:700,height:500});
+                        </script>
+                    </div>
+                
+                <div id="main">
+                    
+                    <p>We sell many different kinds of beds, from Bunk beds to Water beds.</p>
+                    <p> We supply the finest Mattresses with our Beds for our discerning customer. Our Beds, fitted with soft but durable mattresses, provide a great night's sleep for anybody. 
+                    </p>
+                </div>
+
+
+            </div>   
+            <div id ="Footer">
+                <h3> Saheem Iqbal - ackb667 </h3>
+            </div> 
+
+        
+    </body>
+</html>

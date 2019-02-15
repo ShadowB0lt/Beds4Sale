@@ -1,0 +1,425 @@
+body
+{
+    margin:0px;
+    background-image: url(Images/cloudvec.jpg);
+    background-size: cover;
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    
+}
+
+
+
+/* Header area of the page, addding layout and style */
+#Header {
+
+    background-color: #00366F;
+    width: 100%;
+    height: 120px;
+    
+    margin:auto;
+    padding-top:5px;
+    padding-bottom: 5px;
+    display:inline-block;
+    overflow: hidden;
+    
+
+}
+
+/* Name of Business and font style */
+.BusinessName
+{
+    font-size: 45px; 
+    font-family:cursive;
+    display: inline-block;
+    margin-top:20px;
+    color: #87B4F3;
+    
+}
+
+/* Bed logo */
+.bedlogo
+{
+    margin-left: 35px;
+    margin-right: 20px;
+    padding-top: 2px;
+    float: left;
+    
+
+}
+
+.clear
+{
+    clear: both;
+}
+
+/*Navigation bar style design and layout also hover effects */
+#Navigation
+{
+    
+    margin:auto;
+    height:40px;
+    text-align: center;
+    background-color: #0d3e88;
+    overflow: hidden;
+
+}
+
+#Navigation nav
+{
+        margin:auto;
+        display:inline-block;
+	margin-left:10px;
+    overflow: hidden;
+    
+}
+
+#Navigation li
+{
+    float:left;
+    display: block;
+    margin-right:25px;
+    list-style-type:none;
+    text-decoration:none;
+    height:100%;
+    overflow: hidden;
+   
+    
+    
+}
+
+#Navigation li:hover
+{
+   background-color:#E0EBFF;
+   
+	
+}
+
+#Navigation li a:link,a:visited
+{
+    text-transform:uppercase; 
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif, cursive; 
+    font-weight: bolder; 
+    text-decoration:none;
+    text-align:center;  
+    font-size:22px;
+    
+    
+}
+
+
+#Navigation a
+{
+    display: block;
+    color:#ffffff; font-size: 26px; 
+    font-size: 27px;
+    list-style-type:none;
+    text-decoration:none;
+    padding: 7px;
+    overflow: hidden;
+   
+	
+}
+
+#Navigation a:hover
+{
+    color: #87B4F3;
+}
+
+/* main layout page for every page to contain stuff */
+#Content
+{
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #cad4e6;
+	width: 750px;
+	border: 1px solid #0D3E88;
+	border-top: none;
+	border-bottom:none;
+    min-height: 700px;
+    overflow: hidden;
+	
+}
+
+/* consistant footer on all pages at bottom */
+#footer {
+    background-color: #0d3e88;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+
+/* Index page style stuff */
+#intro
+{
+    margin: 20px;
+    padding:10px;
+    background-color: #B6BFCF;
+    border: 1px solid #0d3e88;
+    float:left;
+    width:690px;
+    display: block;
+}
+
+.smallimg
+{
+    float:left;
+    margin-right: 20px;
+    display:block;
+    
+}
+#intro p
+{
+    
+   margin-top:20px;
+}
+
+#intro h2
+{
+  
+  margin:auto;
+}
+
+
+#main
+{
+    margin: 20px;
+    padding:10px;
+    background-color: #B6BFCF;
+    border: 1px solid #0d3e88;
+    float: right;
+    width:690px;
+    display: inline;
+}
+
+#gallery
+{
+    padding: 2px;
+    padding-left: 10px;
+    background-color: #B6BFCF;
+    border: 1px solid #0d3e88;
+    margin: 15px;
+     
+}
+
+#sub
+{
+    background-color: #B6BFCF;
+    margin:auto;
+	margin-left:20px;
+	border: 1px solid #0d3e88;
+	display:inline-block;
+	padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    width: 300px;
+    
+}
+
+
+.imgside
+{
+    margin-top: 10px;
+    margin-right:20px;
+    float: right;
+    display:block;
+    border: 1px solid #00366F;
+    
+}
+
+.login
+{
+    background-color: #B6BFCF;
+    margin:auto;
+    margin-top:20px;
+	margin-left:60px;
+	padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    border: 1px solid #0d3e88;
+	display:inline-block;    
+}
+
+
+.register
+
+{
+    background-color: #B6BFCF;
+    margin:auto;
+	margin-left:20px;
+	padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    border: 1px solid #0d3e88;
+	display:inline-block;   
+    float: left;
+}
+
+
+#Loggedin
+{
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+    font-family: "Trebuchet MS";
+    margin-right: 20px;
+    color: aliceblue;
+}
+
+.logout
+{
+    display: inline-block;
+    margin-top: 45px;
+    float: right;
+    font-size: 20px;
+    width: 100px;
+    
+    
+      
+}
+
+/* Change font of text and heading within the website */
+
+label
+{
+    font-family:"Trebuchet MS";
+    font-size: 16;
+}
+
+H2
+{
+    font-family:"Trebuchet MS";
+    text-transform: capitalize;
+}
+
+p
+{
+    font-family: "Trebuchet MS";
+}
+
+
+
+/* input forms style */
+input {
+    width: 100%;
+    font-size:14;
+    color: #0d3eaa;
+    background-color: #f2f2f2;
+    border: 1px solid #0d3e88;
+    border-radius: 5px;
+	padding: 5px 5px 5px 5px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.button
+{
+    float: right;
+    display: inline-block;
+    background-color: 0d3e88;
+    color: #ddd;
+}
+
+.button:hover
+{
+       background-color: #1A1A1A;
+    color: #ddd;
+}
+
+
+
+input:focus, input:hover
+{
+    background-color: #ddd;
+    color: #0d3eaa;
+    
+}
+
+#basket
+{
+    
+    background-color: #B6BFCF;
+    margin-top: 30px;
+	margin-left: 20px;
+	border: 1px solid #0d3e88;
+	display:inline-block;
+	padding-left: 20px;
+    width: 700px;
+    
+    
+    
+}
+
+h2
+{
+    text-align: center;
+}
+
+#products
+{
+    
+    background-color: #B6BFCF;
+    margin:auto;
+	border: 1px solid #0d3e88;
+
+}
+
+table
+{
+    background-color:#0d3e88;
+}
+
+th
+{
+    
+    color: #fff;
+    text-align: center;
+    
+    background-image: url(Images/BoxBar2.png);
+    background-size:contain;
+    padding: 5;
+    
+}
+tr
+{
+    padding: 20px;
+    text-align: center;
+    
+}
+
+td
+{
+    margin-left:0;
+    padding: 5px;
+    display: block;
+    background-color:#cad4e6;
+}
+
+
+.ordertbl
+{
+    margin-left:900px; 
+    display:inline-block;
+    float:right;
+    width: 195px;
+}
+
+
+
+.buttonq
+{
+    
+    width: 25px;
+    float: right;
+    display: inline-block;
+    background-color: 0d3e88;
+    color: #ddd;
+    margin: 5px;
+    margin-left: 5px;
+}
+
+
